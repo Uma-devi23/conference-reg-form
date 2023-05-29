@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <script src="http://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="form.css"> 
+                                          
+</head>
+<body>
+   <form>
+    <div class="container">
+        <h1>REGISTRATION FORM FOR CONFERENCE</h1>
+        
+        <div class="input">
+        <i class="fas fa-user" style="color:rgb(255,187,0)"></i> <input  type="text" class="fname" placeholder="FirstName">
+      <i class="fas fa-user" style="color:rgb(255,187,0)"></i> <input type="text" class="lname" placeholder="LastName"> 
+        </div>
+    
+        <div class="input">
+            <i class="fas fa-envelope" style="color:rgb(255,187,0)"></i><input class="inpt" type="email" class="inpt" placeholder="email">
+        </div>
+        <div class="input">
+            <i class="fas fa-phone" style="color:rgb(255,187,0)"></i><input class="inpt" type="number" class="inpt" placeholder="Phno">
+        </div>   
+        <div class="input">
+            <i class="fas fa-graduation-cap" style="color:rgb(255,187,0)"></i><input class="inpt" type="text" class="inpt" placeholder="affiliation">
+        </div>
+        <div class="input">
+            <i class="fas fa-house-user" style="color:rgb(255,187,0)"></i><input type="text" class="inpt" placeholder="address">
+        </div>
+
+        <div class="input">
+           <h2 style="color:rgb(255,187,0);font-size: 22px;margin-left:-25%;"># dietary preferences</h2>
+          
+            <input type="checkbox" id="f1" name="f-1" value="veg">
+            <label for="f1" style="color:white;font-size: 22px;">veg</label>
+            <input type="checkbox" id="f2" name="f-2" value="veg" >
+            <label for="f2"style="color:white;font-size: 22px;">vegan</label>
+            <input type="checkbox" id="f3" name="f-3" value="gluten-free" >
+            <label for="f3"style="color:white;font-size: 22px;">gluten-free</label>
+        </div>
+      <h2 style="color:rgb(255,187,0);font-size: 22px;margin-left:-30%;"># registration type</h2>
+      <div class="gender">
+        <input type="radio" name="gender"  style="color:rgb(255,187,0)"> student <input class="inpt" name="gender" type="radio">VIP
+    </div>
+      
+    <div class="dropdown">
+        <div class="select">
+            <span class="selected">workshops</span>
+            <div class="caret"></div>
+        </div>
+        <ul class="menu">
+            <li style="color:rgb(255,187,0);font-size: 18px;">indian</li>
+            <li style="color:rgb(255,187,0);font-size: 18px;">chainese</li>
+            <li style="color:rgb(255,187,0);font-size: 18px;">japanes</li>
+            <li style="color:rgb(255,187,0);font-size: 18px;">usa</li>
+            <li style="color:rgb(255,187,0);font-size: 18px;">germany</li>
+        </ul>
+    </div>
+
+
+        <button>Register</button>
+      <BUTTON><input type="reset" value="Reset" style="color:white; border:transparent;font-size:18px;
+        background-color: transparent;"></BUTTON>
+         <h2 style="color:rgb(255,187,0);font-size: 22px;">your details will be kept safely<br>please check your emails for conference pass...!  Thank you:)</h2>
+    </div>
+   
+</form>
+<script src="script.js"></script>   
+</body>
+</html>
+
+<!--  <div class="gender">
+    <input type="radio" name="gender"  style="color:rgb(255,187,0)"> student <input class="inpt" name="gender" type="radio">VIP
+</div>-->
